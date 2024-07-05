@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-father {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-right: 23px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.section-son {
+    display: flex;
+}
+
+.div-left {
+    display: inline-block;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-top: 144px;
+    margin-left: 125px;
+}
+
+.div-right {
+    display: inline-block;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+    margin-top: 138px;
+    margin-left: 86px;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+    margin-left: 86px;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    margin-top: 32px;
+    margin-left: 86px;
+}
+
+button {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: #000000;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    margin-top: 65px;
+    margin-left: 86px;
+}
+
+@media screen and (max-width: 862px ) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    .section-son {
+        display: block;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        margin-top: 147px;
+        margin-left: 14px;
+    }
+
+    .div-right {
+        align-items: center;
+        margin-top: 0;
+        margin-left: 64px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 60.95px;
+        margin-top: 7px;
+        margin-left: 0;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        line-height: 36.57px;
+        margin-top: 7px;
+        margin-left: 0;
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        margin-top: 17px;
+        margin-left: 0;
+    }
+}
